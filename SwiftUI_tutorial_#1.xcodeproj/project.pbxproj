@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1256196F296429750011BF6F /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256196E296429750011BF6F /* MyTextView.swift */; };
 		F2A209CD24AACA76005EDF19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A209CC24AACA76005EDF19 /* AppDelegate.swift */; };
 		F2A209CF24AACA76005EDF19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A209CE24AACA76005EDF19 /* SceneDelegate.swift */; };
 		F2A209D124AACA76005EDF19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A209D024AACA76005EDF19 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1256196E296429750011BF6F /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 		F2A209C924AACA76005EDF19 /* SwiftUI_tutorial_#1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI_tutorial_#1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A209CC24AACA76005EDF19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A209CE24AACA76005EDF19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,11 +63,12 @@
 				F2A209CC24AACA76005EDF19 /* AppDelegate.swift */,
 				F2A209CE24AACA76005EDF19 /* SceneDelegate.swift */,
 				F2A209D024AACA76005EDF19 /* ContentView.swift */,
+				F2A209E024AACF51005EDF19 /* MyVstackView.swift */,
+				1256196E296429750011BF6F /* MyTextView.swift */,
 				F2A209D224AACA79005EDF19 /* Assets.xcassets */,
 				F2A209D724AACA79005EDF19 /* LaunchScreen.storyboard */,
 				F2A209DA24AACA79005EDF19 /* Info.plist */,
 				F2A209D424AACA79005EDF19 /* Preview Content */,
-				F2A209E024AACF51005EDF19 /* MyVstackView.swift */,
 			);
 			path = "SwiftUI_tutorial_#1";
 			sourceTree = "<group>";
@@ -105,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = Tuentuenna;
 				TargetAttributes = {
 					F2A209C824AACA76005EDF19 = {
@@ -153,6 +156,7 @@
 				F2A209CF24AACA76005EDF19 /* SceneDelegate.swift in Sources */,
 				F2A209E124AACF51005EDF19 /* MyVstackView.swift in Sources */,
 				F2A209D124AACA76005EDF19 /* ContentView.swift in Sources */,
+				1256196F296429750011BF6F /* MyTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -290,7 +296,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_tutorial_#1/Preview Content\"";
-				DEVELOPMENT_TEAM = 67XDG42679;
+				DEVELOPMENT_TEAM = 6YV87RPH2N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI_tutorial_#1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_tutorial_#1/Preview Content\"";
-				DEVELOPMENT_TEAM = 67XDG42679;
+				DEVELOPMENT_TEAM = 6YV87RPH2N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI_tutorial_#1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
